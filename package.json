@@ -1,0 +1,24 @@
+{
+  "name": "funny_tech_shirts",
+  "version": "1.0.0",
+  "description": "Funny T-Shirts Project 1 for NuCamp Coding Bootcamp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBHomes3/Funny_tech_shirts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KBHomes3/Funny_tech_shirts/issues"
+  },
+  "homepage": "https://github.com/KBHomes3/Funny_tech_shirts#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
