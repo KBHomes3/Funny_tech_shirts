@@ -1,88 +1,57 @@
 body {
-  font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
 
 h1,
 h2,
 h3 {
-  font-family: "Lobster", cursive;
-}
+  font-family: "Lobster", cursive; }
 
 h2 {
-  color: #3046c5;
-}
+  color: #766f7b; }
 
 header h2 {
   color: #cec8ff;
-}
+  background-color: #766f7b; }
 
 .site-footer {
   background-image: linear-gradient(#cec8ff, white);
-  padding: 20px 0;
-}
+  padding: 20px 0; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
   color: white;
-}
+  background-color: #766f7b; }
 
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
-  min-height: 200px;
-}
+  min-height: 200px; }
 
 .navbar {
-  background-color: rgb(15, 233, 233);
-}
+  background-color: #901cad; }
 
 .tab-content {
   border: 1px solid #ddd;
   border-top: none;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .carousel-dark {
-  background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #5637dd;
-}
+  border: solid #5637dd; }
 
 #carouselButton {
   position: absolute;
   right: 0;
-  bottom: 0;
-}
+  bottom: 0; }
 
-.navbar .search-container {
-  float: right;
-}
+#reserveModal .modal-header {
+  background-color: #17A2B8; }
 
-.navbar input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-}
+#loginModal .modal-header {
+  background-color: #901cad; }
 
-.navbar .search-container button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.card-deck {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-}
+#loginModal h3 {
+  color: white; }

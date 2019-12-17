@@ -1,7 +1,7 @@
-$color-primary: #3046c5;
+$color-primary: #766f7b;
 $color-secondary: #5637dd;
 $color-pale: #cec8ff;
-$color-mid: #901cad;
+$color-mid: #a0e290;
 $color-dark: #60106b;
 $color-transparent-black: rgba(0, 0, 0, 0.5);
 $color-teal: #17A2B8;
@@ -25,6 +25,7 @@ h2 {
 header {
   h2 {
     color: $color-pale;
+    background-color: $color-primary;
   }
 }
 
@@ -36,13 +37,8 @@ header {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(
-    to right,
-    $color-secondary,
-    $color-primary,
-    $color-dark
-  );
   color: white;
+  background-color: $color-primary;
 }
 
 .row-content {
